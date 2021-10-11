@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); */
+
+@font-face {
+    font-family: Moniqa-Black-Display;
+    src: url(fonts/Moniqa-BlackDisplay.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #161616;
+    color: white;
+}
+
+.intro {
+    /* border: 2px solid rosybrown; */
+    /* height: 1000px; */
+    padding: 150px 0;
+}
+
+#intro-header {
+    font-family: "Rubik Mono One";
+    font-size: 86px;
+}
+
+.rubik {
+    font-family: "Rubik";
+    font-weight: 300;
+}
+
+.intro-text {
+    font-size: 56px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bull-goats {
+    /* border: 2px solid rosybrown; */
+    padding: 100px 0;
+    background-image: url(/images/bull-goats.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+
+.bull-goats-fonts {
+    margin: 0 0 40px 0;
+    font-family: Cormorant;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.bull-goats-fable h2 {
+    font-family: "Moniqa-Black-Display";
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+
+.bull-goats-fable p {
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 32px;
+    max-width: 540px;
+    margin: 0 0 20px 0;
+}
