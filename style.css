@@ -57,7 +57,7 @@ html {
 .bull-goats {
     /* border: 2px solid rosybrown; */
     padding: 100px 0;
-    background-image: url(/images/bull-goats.jpg);
+    background-image: url(/bull-goats.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
